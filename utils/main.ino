@@ -32,7 +32,7 @@ void colorCycle(int wait) {
 
 // Cycle colors for each individual pixel sequentially
 void individualColors(int wait) {
-  static int i = 0;
+  static int i = -1;
   // Count for getting idx and color of led
   i += 1;
   int idx = i % (NUM_PIXELS-1);
