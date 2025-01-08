@@ -1,0 +1,20 @@
+# Site Settings
+description: "Pretty Lights" # Optional site description
+url: "https://lilashiba.github.io" # Update with your actual GitHub Pages URL
+author: "Lila Josey James" # Your name or site's author
+
+# Theme Settings
+remote_theme: pages-themes/minimal@v0.2.0 # The Minimal theme from GitHub Pages
+plugins:
+  - jekyll-remote-theme # Allows using remote themes from GitHub
+
+# Customization
+markdown: kramdown # Default Markdown processor, handles rendering markdown
+highlighter: rouge # Optional, for syntax highlighting of code blocks
+
+# Build Settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor # Exclude unnecessary files/folders from the build
