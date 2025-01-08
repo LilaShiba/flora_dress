@@ -1,4 +1,4 @@
-# wearable_sparkle_band
+# Flora Dress
 
 ![example](assets/videos/example.gif)
 
