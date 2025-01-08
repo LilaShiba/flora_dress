@@ -16,4 +16,4 @@ This was my very first stich. Basic circuit connecting two addressable leds.
 3. Patience
 
 
-<img src="assets/videos/iterate.gif" alt="img1" width="600">
+<img src="assets/videos/iterate.gif" alt="img1" width="600" loop>
