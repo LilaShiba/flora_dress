@@ -1,4 +1,3 @@
-# Flora Dress
 
 <img src="assets/videos/example.gif" alt="example" width="600">
 
