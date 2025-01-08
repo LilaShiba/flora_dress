@@ -1,6 +1,6 @@
 # Flora Dress
 
-![example](assets/videos/example.gif)
+<img src="assets/videos/example.gif" alt="example" width="600">
 
 
 
@@ -9,4 +9,4 @@
 ### Basic Stich
 This was my vey first stich. Basic circuit connecting two addressable leds. 
 
-![img1](assets/images/basic_stich.jpg)
+<img src="assets/imgs/basic_stich.jpg" alt="img1" width="300">
