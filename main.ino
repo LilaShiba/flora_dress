@@ -1,9 +1,8 @@
 #include <Adafruit_NeoPixel.h>
 
 // Pin definitions
-#define ONBOARD_LED_PIN 8  // Onboard LED 
-#define NEOPIXEL_PIN 1     // NeoPixel data 
-
+#define ONBOARD_LED_PIN 8  
+#define NEOPIXEL_PIN 1     
 #define TOTAL_PIXELS 13
 
 // NeoPixel objects
@@ -19,16 +18,20 @@ uint32_t transFlag[] = {
   onboard.Color(91, 206, 250)   // Light blue
 };
 
-const int delayTime = 500; // Delay between color changes
+const int delayTime = 200; // Delay between color changes
 int currentColorIndex = 0;
 
 void updatePixels(uint32_t color) {
   // Update onboard pixel
   onboard.setPixelColor(0, color);
-
+  delay(delayTime);
   // Update external pixels
   for (int i = 0; i < TOTAL_PIXELS - 1; i++) {
     external.setPixelColor(i, color);
+    external.show();
+    delay(delayTime);
+
+
   }
 
   // Apply changes
@@ -54,6 +57,4 @@ void loop() {
   // Move to the next color
   currentColorIndex = (currentColorIndex + 1) % 5;
 
-  // Wait before updating again
-  delay(delayTime);
 }
