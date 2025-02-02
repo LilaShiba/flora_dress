@@ -1,23 +1,23 @@
-<img src="assets/videos/dress.gif" alt="example" width="600" loop>
+<!-- Dress GIF -->
+<img src="assets/videos/dress.gif" alt="Dress Example" width="600" loop loading="lazy">
 
-## Resistance is Sparkle 
+## Resistance is Sparkle
 
-
-<img src="assets/videos/example.gif" alt="example" width="600" loop>
-
-
+<!-- Example GIF -->
+<img src="assets/videos/example.gif" alt="Example" width="600" loop loading="lazy">
 
 ## Dev Process
 
-### Basic Stich
-This was my very first stich. Basic circuit connecting two addressable leds. 
+### Basic Stitch
+This was my very first stitch. Basic circuit connecting two addressable LEDs.
 
-<img src="assets/imgs/basic_stich.jpg" alt="img1" width="300">
+<!-- Basic Stitch Image -->
+<img src="assets/imgs/basic_stich.jpg" alt="Basic Stitch" width="300" loading="lazy">
 
 ### Improving
-1. Have whatever you are sewing streched. This matters an insane amount.
-2. [Adafruit's Youtube tutorial](https://learn.adafruit.com/getting-started-with-flora/overview) on stiching technique is highly helpful.
+1. Have whatever you are sewing stretched. This matters an insane amount.
+2. [Adafruit's YouTube tutorial](https://learn.adafruit.com/getting-started-with-flora/overview) on stitching technique is highly helpful.
 3. Patience
 
-
-<img src="assets/videos/iterate.gif" alt="img1" width="600" loop>
+<!-- Iteration GIF -->
+<img src="assets/videos/iterate.gif" alt="Iteration Example" width="600" loop loading="lazy">
