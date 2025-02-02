@@ -1,8 +1,4 @@
-
-<video width="600" height="600" autoplay loop muted>
-  <source src="assets/videos/dress.MP4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+<img src="assets/videos/dress.gif" alt="example" width="600" loop>
 
 ## Resistance is Sparkle 
 
