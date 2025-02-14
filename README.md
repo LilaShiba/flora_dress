@@ -4,7 +4,7 @@
     Your browser does not support the video tag.
 </video>
 
-## Resistance is Sparkle
+## Resistance Sparkles
 
 <!-- Example GIF -->
 <img src="assets/videos/example.gif" alt="Example" width="600" loop loading="lazy">
